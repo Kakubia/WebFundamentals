@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animais</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <ul>
+    <ul class="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -22,21 +25,54 @@
         </li>
     </ul>
 
-    <h1>Animais</h1>
-    
-    <p>
-        Praticando html usando os animais como exemplo. Nesse html vão ter fotos e vídeos de vários animais. Em cada setor vai conter uma foto do animal e uma explicação
-        sobre cada um deles.
-    </p>
-    
-    <img src="assets/photos/49_animais_domesticos_definicao_e_especies_23221_orig.jpg" alt="Foto com vários animais domésticos">
+    <h1 class="center">Animais</h1>
 
-    <h2>Vídeo de animais:</h2>
+    <div class="container">
+        <div class="text">
+            <p>
+                Praticando html usando os animais como exemplo. Nesse html vão ter fotos e vídeos de vários animais.
+            </p>
+            <p>
+                Em cada setor vai conter uma foto do animal e uma explicação sobre cada um deles.
+            </p>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/mHN2eNigz3o" title="YouTube video player" 
-    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen
-    ></iframe>
+        </div>
+
+        <div>
+            <img class="img" src="assets/photos/49_animais_domesticos_definicao_e_especies_23221_orig.jpg"
+                alt="Foto com vários animais domésticos">
+        </div>
+
+    </div>
+
+    <h2 class="center">Vídeo de animais:</h2>
+    <div class="container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mHN2eNigz3o" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+    </div>
+    <hr>
+    <footer>
+        <div class="container mb-40">
+            <a href="https://www.facebook.com" target="_blank">
+                <img class="tm" src="assets/photos/facebook.png" alt="Logo do Facebook">
+            </a>
+            
+            <a href="https://www.instagram.com" target="_blank">
+                <img class="tm" src="assets/photos/instagram.png" alt="Logo do Instagram">
+            </a>
+            
+            <a href="https://www.linkedin.com" target="_blank">
+                <img class="tm" src="assets/photos/linkedin.png" alt="Logo do LinkedIn">
+            </a>
+            
+        </div>
+      <p class="center">
+        Todos os direitos reservados: Beatrice Kaku &copy;
+      </p> 
+    </footer>
 
 </body>
+
 </html>

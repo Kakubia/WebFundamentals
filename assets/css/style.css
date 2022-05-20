@@ -1,0 +1,71 @@
+/*
+Estilo da página Index
+*/
+.center {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    text-align: left;
+    padding: 20px;
+}
+
+.img {
+    padding: 20px;
+}
+.menu {
+    background-color: darkseagreen;
+    padding: 15px;
+}
+.menu li{
+    display: inline;
+    padding: 30px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.menu li a:hover {
+    color: lightseagreen;
+}
+
+.tm {
+    width: 40px;
+    height: 40px;
+    padding: 30px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+/*
+Estilo da página Contato
+*/
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+
+
+/*
+Estilo da página Cães
+*/
+
+
+
+
+/*
+Estilo da página Gatos
+*/
